@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Storage Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Local Storage Manager</h1>
+    <div class="form-group">
+      <input 
+        type="text" 
+        id="keyInput" 
+        placeholder="Enter key"
+      >
+      <input 
+        type="text" 
+        id="valueInput" 
+        placeholder="Enter value"
+      >
+      <button id="addButton">
+        Add to Local Storage
+      </button>
+    </div>
+    <div id="storageList" class="storage-list">
+    </div>
+    <button id="clearButton">
+      Clear All Storage
+    </button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
